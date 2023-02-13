@@ -15,16 +15,16 @@ If the Motoko compiler fails, the last `mops:1:start` test is considered failed.
 ### Example
 stdout
 ```
-mops:1:start get file meta
-mops:1:end get file meta
-mops:1:start try to get file meta of unknown file
-mops:1:end try to get file meta of unknown file
-mops:1:skip upgrade storage canister
+mops:1:start first test
+mops:1:end first test
+mops:1:start second test
+mops:1:end second test
+mops:1:skip third test
 ```
 
 formatted result
 ```
-✓ get file meta
-✓ try to get file meta of unknown file
-− upgrade storage canister
+✓ first test
+✓ second test
+− third test
 ```
