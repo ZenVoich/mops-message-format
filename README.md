@@ -28,3 +28,8 @@ formatted result
 ✓ try to get file meta of unknown file
 − upgrade storage canister
 ```
+
+## V1.1
+`mops:1:expected <text>` - expected value (line feed must be replaced with `\n`)
+
+`mops:1:received <text>` - received value (line feed must be replaced with `\n`)
